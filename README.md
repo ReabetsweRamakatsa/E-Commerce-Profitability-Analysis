@@ -29,14 +29,15 @@ Using 2000 orders across a full fiscal year, the analysis connects three data so
 **Electronics and Toys are carrying the business. Books is the weakest link.**
 
  |primary_category | profit_margin | return_rate | avg_profit_per_order
-  | Electronics | 31.13%    | 8.61% | $52.34
-  | Toys  | 26.15% | 7% | $34.19
-  | Home & Kitchen | 25.37% | 6% | $33.44
-  | Food & Beverage | 24.76% |5.67% |$30.74
-  | Sports | 23.5% | 7.19% | $26.02
-  | Clothing | 19.97% | 8.19% | $21.41
-           Beauty       17.39%     5.59%             $15.49
-            Books       11.93%     8.37%              $9.41
+ |---|---|---|---| 
+ | Electronics | 31.13%    | 8.61% | $52.34
+ | Toys  | 26.15% | 7% | $34.19
+ | Home & Kitchen | 25.37% | 6% | $33.44
+ | Food & Beverage | 24.76% |5.67% |$30.74
+ | Sports | 23.5% | 7.19% | $26.02
+ | Clothing | 19.97% | 8.19% | $21.41
+ | Beauty | 17.39% | 5.59% | $15.49
+ | Books | 11.93% | 8.37% | $9.41
 **Electronics** earns $52.34 profit per order — 5.6× more than Books at $9.41. The 19.2-point margin gap between the best and worst category is the single biggest profitability lever in the business.
 
 > **As much as Electronics drives revenue, its return rate of 8.61% is a red flag.** Costing an estimated $4000+ in refunds over the year.
