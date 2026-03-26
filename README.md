@@ -117,5 +117,3 @@ Suggested tactics: include website discount codes in Marketplace packaging, inve
 - Executive reporting — translating data findings into business decisions
 
 ---
-
-*Analysis period: January – December 2024 | Orders analysed: 12,000 | Data verified: 100% cost reconciliation passed*
