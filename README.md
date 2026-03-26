@@ -65,13 +65,14 @@ Marketplace's 16.06% platform fee costs the business $20.93 in profit per order 
 
 **Email Marketing spent $24,461.37 and delivered the worst return of any channel.**
 
-|          platform   annual spend    roas      avg_cpa
-   Email Marketing    $24,461.37      4.81x    $26.01
-      Facebook Ads    $106,451.93     11.45x   $8.38
-        Google Ads    $152,546.48     14.38x   $6.48
-        Influencer    $97,663.12      22.70x   $4.79
-     Instagram Ads    $65,154.02      15.73x   $5.55
-        TikTok Ads    $57,229.22      24.02x   $3.93
+|platform| annual spend | roas| avg_cpa
+|---|---|---|---|
+| Email Marketing | $24,461.37 | 4.81x | $26.01
+| Facebook Ads| $106,451.93 | 11.45x | $8.38
+| Google Ads| $152,546.48 | 14.38x | $6.48
+| Influencer | $97,663.12 | 22.70x | $4.79
+| Instagram Ads | $65,154.02 | 15.73x | $5.55
+| TikTok Ads | $57,229.22 | 24.02x | $3.93
         
 *ROAS = Revenue generated per $1 spent. Higher is better.*
 
