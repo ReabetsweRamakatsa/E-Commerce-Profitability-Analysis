@@ -5,9 +5,9 @@
 
 ## What This Project Does
 
-Top-line revenue looked healthy at **$2.38M** — but that number was masking a more complicated story underneath. This analysis peels back gross revenue to find where the business is *actually* making money, and where it is quietly losing it.
+Top-line revenue looked healthy at **$278.0K** — but that number was masking a more complicated story underneath. This analysis peels back gross revenue to find where the business is *actually* making money, and where it is quietly losing it.
 
-Using 12,000 orders across a full fiscal year, the analysis connects three data sources — order transactions, product costs, and marketing spend — to produce a single, honest picture of profitability after accounting for shipping, returns, platform fees, and advertising costs.
+Using 2000 orders across a full fiscal year, the analysis connects three data sources — order transactions, product costs, and marketing spend — to produce a single, honest picture of profitability after accounting for shipping, returns, platform fees, and advertising costs.
 
 ---
 
@@ -15,139 +15,89 @@ Using 12,000 orders across a full fiscal year, the analysis connects three data 
 
 | Metric | Value |
 |---|---|
-| Gross Revenue | $2,384,561 |
-| Revenue Lost to Returns | **$236,896** (9.9% of gross) |
-| Net Profit | **$565,692** |
-| Overall Profit Margin | **26.3%** |
-| Total Marketing Spend | $625,912 |
-| Blended Marketing ROAS | 22.4× |
-
-The business is profitable — but two categories and one marketing platform are quietly dragging the whole operation down.
+| Gross Revenue | **$277,969.13** |
+| Revenue Lost to Returns | **$20,582.45** (7.4% of gross) |
+| Net Profit | **$236,318.37** |
+| Overall Profit Margin | **23.8%** |
+| Total Marketing Spend | $503,506.14 |
+| Blended Marketing ROAS | 16.2x |
 
 ---
 
 ## Key Finding 1 — Not All Products Are Equal
 
-**Beauty and Home & Garden are carrying the business. Electronics is the problem.**
+**Electronics and Toys are carrying the business. Books is the weakest link.**
 
-| Category | Profit Margin | Return Rate | Avg Profit / Order |
-|---|---|---|---|
-| Beauty | **50.5%** | 8.6% | $40.97 |
-| Home & Garden | **41.1%** | 9.5% | $132.20 |
-| Sports | 39.1% | 9.0% | $77.04 |
-| Apparel | 34.4% | 21.6% | $31.10 |
-| Food & Grocery | 21.1% | 2.4% | $7.80 |
-| Books & Media | 18.6% | 3.8% | $6.39 |
-| **Electronics** | **7.7%** | 11.2% | $37.59 |
+ primary_category  profit_margin  return_rate  avg_profit_per_order
+      Electronics       31.13%     8.61%             $52.34
+             Toys       26.15%     7%                $34.19
+   Home & Kitchen       25.37%     6%                $33.44
+  Food & Beverage       24.76%     5.67%             $30.74
+           Sports       23.5%      7.19%             $26.02
+         Clothing       19.97%     8.19%             $21.41
+           Beauty       17.39%     5.59%             $15.49
+            Books       11.93%     8.37%              $9.41
+**Electronics** earns $52.34 profit per order — 5.6× more than Books at $9.41. The 19.2-point margin gap between the best and worst category is the single biggest profitability lever in the business.
 
-**Why Beauty wins:** High markup (products sell at 2.5–4.5× their cost) combined with a low return rate means almost every sale is clean profit.
-
-**Why Electronics struggles:** Product cost alone consumes ~62 cents of every $1 earned. Add an 11.2% return rate — where customers are returning expensive items — and margins collapse. Electronics is generating volume but not value.
-
-> **Apparel return rate of 21.6% is a red flag.** One in five Apparel orders is returned, costing an estimated $75,000+ in refunds over the year — the single largest return-driven revenue loss in the business.
+> **As much as Electronics drives revenue, its return rate of 8.61% is a red flag.** Costing an estimated $4000+ in refunds over the year.
 
 ---
 
 ## Key Finding 2 — Where You Sell Matters as Much as What You Sell
 
-**Selling on Marketplace costs the business $27.59 per order compared to selling on the Website.**
-
-| Channel | Avg Profit / Order | Profit Margin | Platform Fee |
-|---|---|---|---|
-| Website | **$56.59** | 31.2% | 0% |
-| Mobile App | $50.42 | 28.9% | 2% |
-| Social Commerce | $43.57 | 24.1% | 6% |
-| **Marketplace** | **$29.00** | 16.2% | **12%** |
-
-Marketplace charges a 12% fee on every transaction. That single line item is the primary reason Marketplace profit per order is nearly half that of the Website — before returns are even considered. With roughly 26% of all orders coming through Marketplace, the cumulative profit cost is substantial.
-
+**Selling on Marketplace costs the business $20 per order compared to selling on the Mobile App.**
+|
+           channel  profit_margin  total_platform_fees  avg_profit_per_order
+      Marketplace      13.03%                 16.06%             $15.39
+       Mobile App      29.76%                 0.0%               $36.32
+  Social Commerce      15.37%                 8.87%              $17.11
+          Website      27.015                 0.0%               $31.59
+Marketplace's 16.06% platform fee costs the business $20.93 in profit per order compared to the Mobile App, before returns are considered. With 20.95% of orders coming through Marketplace, this fee drag compounds significantly across the year.
 ---
 
 ## Key Finding 3 — One Marketing Platform Is Burning Money
 
-**Influencer marketing spent $97,327 and delivered the worst return of any channel.**
+**Email Marketing spent $24,461.37 and delivered the worst return of any channel.**
 
-| Platform | Annual Spend | ROAS | Cost Per Acquisition |
-|---|---|---|---|
-| Email Marketing | $20,789 | **352×** | **$0.77** |
-| Meta / Facebook | $153,842 | 15.3× | $19.21 |
-| Google Ads | $169,024 | 13.9× | $24.24 |
-| TikTok Ads | $83,324 | 10.5× | $17.27 |
-| YouTube Ads | $69,961 | 8.2× | $36.71 |
-| Pinterest Ads | $31,644 | 6.0× | $29.33 |
-| **Influencer** | **$97,328** | **3.5×** | **$60.30** |
-
+|          platform   annual spend    roas      avg_cpa
+   Email Marketing    $24,461.37      4.81x    $26.01
+      Facebook Ads    $106,451.93     11.45x   $8.38
+        Google Ads    $152,546.48     14.38x   $6.48
+        Influencer    $97,663.12      22.70x   $4.79
+     Instagram Ads    $65,154.02      15.73x   $5.55
+        TikTok Ads    $57,229.22      24.02x   $3.93
+        
 *ROAS = Revenue generated per $1 spent. Higher is better.*
 
-Email Marketing is the standout — at $0.77 cost per customer acquired, it is 78 times more efficient than Influencer. Every month of Influencer spend in 2024 fell below a 4× return. Pinterest Ads also underperformed, with two months dipping below 3×.
+TikTok Ads Marketing is the standout at $3.93 cost per customer acquired, it is 7 times more efficient than Email Marketing.
 
 ---
 
 ## Three Recommendations
 
-### 1. Cut Influencer Budget — Reallocate to Email and Meta
-Influencer marketing is the lowest-returning channel in the portfolio. Eliminating it saves **$97,328 per year**. Redirecting half to Email (owned channel, near-zero marginal cost) and half to Meta covers the 20% budget reduction target entirely, with minimal revenue impact. The revenue Influencer was attributed with can be recaptured more efficiently elsewhere.
+### 1. Cut Email Marketing Budget — Reallocate to TikTok Ads and Instagram
+Email marketing is the lowest-returning channel in the portfolio. Eliminating it saves **$24,461.37 per year**. Redirecting half to TikTok Ads and half to Instagram Ads covers the 20% budget reduction target entirely, with minimal revenue impact.
 
-**Budget cut target achieved: $125,182 saved (20% of total spend)**
-Specific months to cut first: Influencer — October, September, January, June, November (lowest ROAS months, all below 3.5×).
+**Budget cut target achieved: $100,701.228 saved (20% of total spend)**
+Specific months to cut first: Email Marketing — December, October, July, June, November (lowest ROAS months, all below 3.5×).
 
-### 2. Fix the Electronics Margin Problem
-Electronics needs either lower costs or higher prices. Three levers available:
+### 2. Fix the Bookd Margin Problem
+Books needs either lower costs or higher prices.
 - **Renegotiate supplier pricing** — a 10–15% unit cost reduction would add an estimated $30–40K to annual profit
-- **Tighten the return policy** — reducing the 11.2% return rate to the 8–9% range seen in other categories meaningfully reduces costly refunds
-- **Reprice Accessories** — this sub-category has pricing headroom that is currently untapped
+- **Tighten the return policy** — reducing the 8.37% return rate to the 3–5% range will meaningfully reduce costly refunds
 
 ### 3. Migrate Marketplace Customers to Direct Channels
-Every Marketplace customer converted to a Website customer is worth **$27.59 more in profit** per order. With 12% of revenue going directly to the platform as fees, reducing Marketplace dependency is one of the highest-leverage moves available. Suggested tactics: include website discount codes in Marketplace packaging, invest in direct SEO/SEM, and introduce a loyalty programme exclusive to direct-channel buyers.
+Every Marketplace customer converted to a Mobile App customer is worth **$20.93 more in profit** per order. With 16.06% of revenue going directly to the platform as fees, reducing Marketplace dependency is one of the highest-leverage moves available. 
 
-**Combined impact of all three recommendations: estimated $195–250K additional annual profit, improving overall margin from 26.3% toward 32–35%.**
-
----
-
-## Project Structure
-
-```
-ecommerce-profitability-analysis/
-│
-├── data/
-│   ├── products.csv          # 126 products across 7 categories
-│   ├── orders.csv            # 12,000 orders (FY 2024)
-│   └── marketing_spend.csv   # Monthly spend by platform (7 platforms × 12 months)
-│
-├── analysis/
-│   └── profitability_analysis.py   # Full Python analysis (pandas)
-│
-├── dashboard/
-│   └── dashboard.html        # Interactive profitability dashboard
-│
-└── README.md
-```
-
----
-
-## How to Run
-
-```bash
-# Install dependencies
-pip install pandas numpy
-
-# Generate datasets
-python analysis/generate_data.py
-
-# Run full analysis
-python analysis/profitability_analysis.py
-```
-
-**Requirements:** Python 3.8+, pandas, numpy
+Suggested tactics: include website discount codes in Marketplace packaging, invest in direct SEO/SEM, and introduce a loyalty programme exclusive to direct-channel buyers.
 
 ---
 
 ## Tools Used
 
 - **Python / pandas** — data loading, aggregation, profitability calculations
-- **Chart.js** — interactive dashboard visualisations
-- **Data sources:** Synthetic datasets modelled on realistic South African e-commerce market dynamics (pricing, categories, channels)
-
+- **Chart.js** — dashboard visualisations
+- **Data sources:** Datasets modelled on BrightCart e-commerce market. BrightCart is an online retailer selling products across 8 categories through their website, mobile app, third-party marketplaces, and social commerce. 
 ---
 
 ## Skills Demonstrated
