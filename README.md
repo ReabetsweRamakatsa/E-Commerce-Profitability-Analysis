@@ -42,7 +42,8 @@ Using 2000 orders across a full fiscal year, the analysis connects three data so
 
 **Electronics** earns $52.34 profit per order — 5.6× more than Books at $9.41. The 19.2-point margin gap between the best and worst category is the single biggest profitability lever in the business.
 
-> **As much as Electronics drives revenue, its return rate of 8.61% is a red flag.** Costing an estimated $4000+ in refunds over the year.
+> **As much as Electronics drives revenue, its return rate of 8.61% is a red flag.**
+> Costing an estimated $4000+ in refunds over the year.
 
 ---
 
@@ -76,7 +77,7 @@ Marketplace's 16.06% platform fee costs the business $20.93 in profit per order 
         
 *ROAS = Revenue generated per $1 spent. Higher is better.*
 
-TikTok Ads Marketing is the standout at $3.93 cost per customer acquired, it is 7 times more efficient than Email Marketing.
+**TikTok Ads Marketing is the standout at $3.93 cost per customer acquired, it is 7 times more efficient than Email Marketing.**
 
 ---
 
@@ -103,8 +104,8 @@ Suggested tactics: include website discount codes in Marketplace packaging, inve
 ## Tools Used
 
 - **Python / pandas** — data loading, aggregation, profitability calculations
-- **Chart.js** — dashboard visualisations
-- **Data sources:** Datasets modelled on BrightCart e-commerce market. BrightCart is an online retailer selling products across 8 categories through their website, mobile app, third-party marketplaces, and social commerce. 
+- **Plotly** — dashboard visualisations
+- **Data sources:** Datasets on BrightCart e-commerce market. BrightCart is an online retailer selling products across 8 categories through their website, mobile app, third-party marketplaces, and social commerce. 
 ---
 
 ## Skills Demonstrated
