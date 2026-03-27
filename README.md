@@ -49,7 +49,7 @@ Using 2000 orders across a full fiscal year, the analysis connects three data so
 
 ## Key Finding 2 — Where You Sell Matters as Much as What You Sell
 
-**Selling on Marketplace costs the business $20 per order compared to selling on the Mobile App.**
+**Selling on Marketplace costs the business approx. $21 per order compared to selling on the Mobile App.**
 
 |channel | profit_margin | total_platform_fees | avg_profit_per_order
 |---|---|---|---|
@@ -58,8 +58,8 @@ Using 2000 orders across a full fiscal year, the analysis connects three data so
 | Social Commerce | 15.37% | 8.87%| $17.11|
 | Website| 27.015% | 0.0%| $31.59
 
+**Marketplace's 16% platform fee coststhe business approx. $21 in profit per order compared to the Mobile App, before returns are considered. With 20.95% of orders coming through Marketplace, this fee drag compounfs significantly across the year.**
 
-Marketplace's 16.06% platform fee costs the business $20.93 in profit per order compared to the Mobile App, before returns are considered. With 20.95% of orders coming through Marketplace, this fee drag compounds significantly across the year.
 ---
 
 ## Key Finding 3 — One Marketing Platform Is Burning Money
@@ -83,21 +83,21 @@ Marketplace's 16.06% platform fee costs the business $20.93 in profit per order 
 
 ## Three Recommendations
 
-### 1. Cut Email Marketing Budget — Reallocate to TikTok Ads and Instagram
-Email marketing is the lowest-returning channel in the portfolio. Eliminating it saves **$24,461.37 per year**. Redirecting half to TikTok Ads and half to Instagram Ads covers the 20% budget reduction target entirely, with minimal revenue impact.
+### 1. Cut Email Marketing Budget — Reallocate to TikTok Ads and Influencers
+Email marketing is the lowest-returning channel in the portfolio. Eliminating it saves **$24,461.37 per year**. Redirecting half to TikTok Ads and half to Influencers covers the 20% budget reduction target entirely, with minimal revenue impact.
 
 **Budget cut target achieved: $100,701.228 saved (20% of total spend)**
 Specific months to cut first: Email Marketing — December, October, July, June, November (lowest ROAS months, all below 3.5×).
 
 ### 2. Fix the Bookd Margin Problem
 Books needs either lower costs or higher prices.
-- **Renegotiate supplier pricing** — a 10–15% unit cost reduction would add an estimated $30–40K to annual profit
+- **Renegotiate supplier pricing** — a unit cost reduction would add more cash to annual profit
 - **Tighten the return policy** — reducing the 8.37% return rate to the 3–5% range will meaningfully reduce costly refunds
 
 ### 3. Migrate Marketplace Customers to Direct Channels
-Every Marketplace customer converted to a Mobile App customer is worth **$20.93 more in profit** per order. With 16.06% of revenue going directly to the platform as fees, reducing Marketplace dependency is one of the highest-leverage moves available. 
+Every Marketplace customer converted to a Mobile App customer is worth **$20.93 more in profit** per order. With 16% of revenue going directly to the platform as fees, reducing Marketplace dependency is one of the highest-leverage moves available. 
 
-Suggested tactics: include website discount codes in Marketplace packaging, invest in direct SEO/SEM, and introduce a loyalty programme exclusive to direct-channel buyers.
+Suggested tactics: include Website discount codes in Marketplace packaging, and introduce a loyalty programme exclusive to direct-channel buyers.
 
 ---
 
